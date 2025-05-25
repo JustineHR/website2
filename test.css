@@ -1,0 +1,76 @@
+.Top_Website {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  p {
+    font-size: 50px;
+  }
+
+  .FrontPage {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+nav {
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+    padding: 35px;
+}
+
+  nav a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: compact;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+  nav a:hover{
+    color:rgb(114, 104, 104)
+  }
+
+  p {
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 15px;
+    width: 70%;
+    float: left;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div img {
+    width: 400px;
+    height: 600px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #ff3d0036;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+div img:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
