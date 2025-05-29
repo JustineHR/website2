@@ -1,76 +1,93 @@
+/* This code handles the headers for the top of the website */
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 35px;
+  width: 70%;
+  float: center;
+  transition: font-size 2s;
+}
+
+/* This code below is the handler for the top photo*/
+
 .Top_Website {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
 
-  p {
-    font-size: 50px;
-  }
+/* This code below is the handler for the navigation bar*/
 
-  .FrontPage {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  
 nav {
-    text-align: center;
-    background-color: white;
-    text-decoration: none;
-    font-size: 50px;
-    font-family: "Oswald", sans-serif;
-    padding: 35px;
+  text-align: center;
+  background-color: white;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;;
 }
 
-  nav a{
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    display: compact;
-    width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
+nav a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: compact;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-  nav a:hover{
-    color:rgb(114, 104, 104)
-  }
-
-  p {
-    font-family: "Oswald", sans-serif;
-    font-size: 50px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    padding: 15px;
-    width: 70%;
-    float: left;
+nav a:hover{
+  color:rgb(114, 104, 104)
 }
 
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+/* This code below is the handler for the photos */
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-div img {
-    width: 400px;
-    height: 600px;
-    border: 2px solid #ff3d0036;
-    border-radius: 13px;
-    box-shadow: 4px 7px 7px 0px #ff3d0036;
-    cursor: pointer;
-    margin: 10px;
-    transition: 400ms;
+/* Handles all of the boxes in the "container" */
+
+.box {
+  position: relative;
+  width: 330px;
+  height: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 3px 4px 3px rgba(0,0,0,0.2);
 }
 
-div img:hover {
-    filter: grayscale(1);
-    transform: scale(1.03);
+.box img{
+  width: 100%;
+  height: 100%;
+  transition: all linear 0.7s;
+}
+
+/* Handles what happens when you hover over the image */
+
+img.hover-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.box:hover img{
+  opacity: 0;
+}
+
+.box:hover img.hover-img{
+  opacity: 1;
+  transform: scale(1.03);
 }
