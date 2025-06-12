@@ -70,7 +70,7 @@ h1:hover {
   font-size: 75PX;
 }
 
-.p1 {
+footer .p1 {
   font-family: "Oswald", sans-serif;
   font-size: 10px;
   text-align: center;
@@ -79,5 +79,24 @@ h1:hover {
   margin-right: auto;
   margin-top: 30px;
   padding: 15px;
+  width: 70%;
+}
+
+contact h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 70%;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(0, 0, 0);
   width: 70%;
 }
