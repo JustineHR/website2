@@ -16,7 +16,19 @@ h1 {
 
 h2 {
   font-family: "Oswald", sans-serif;
-  font-size: 50px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 13px;
   text-align: center;
   color: rgb(0, 0, 0);
   width: 70%;
@@ -41,20 +53,20 @@ nav {
   text-align: center;
   background-color: white;
   text-decoration: none;
-  font-size: 50px;
-  font-family: "Oswald", sans-serif;
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;;
 }
-
+  
 nav a{
   text-align: center;
   text-decoration: none;
   color: black;
   display: compact;
-  width: 100%;
+  width: 70%;
   margin-left: 5%;
   margin-right: 5%;
 }
-
+  
 nav a:hover{
   color:rgb(114, 104, 104)
 }
@@ -66,6 +78,7 @@ nav a:hover{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 /* Handles all of the boxes in the "container" */
