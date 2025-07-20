@@ -188,3 +188,43 @@ img.hover-img{
   opacity: 1;
   transform: scale(1.03);
 }
+
+/* Handles the text being on top of some images */
+
+.content-1 {
+  grid-column: span 5 / span 5;
+  grid-row-start: 3;
+  position: relative;
+  text-align: center;
+  padding: 30px;
+}
+
+.content-1 img {
+  width: 70%;
+}
+
+.content-1-text {
+  position: absolute;
+  max-width: 400px;
+  font-family: "Oswald", sans-serif;
+  background-color:rgba(1, 1, 1, 0.5);
+  padding: 2%;
+  color: white;
+  text-align: left;
+  font-size: 18px;
+  top: 50%;
+  left: 50%;
+}
+
+.content-2-text {
+  position: absolute;
+  max-width: 400px;
+  font-family: "Oswald", sans-serif;
+  background-color:rgba(1, 1, 1, 0.5);
+  padding: 2%;
+  color: white;
+  text-align: left;
+  font-size: 18px;
+  top: 35%;
+  left: 24%;
+}

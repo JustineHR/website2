@@ -116,3 +116,10 @@ img.hover-img{
   opacity: 1;
   transform: scale(1.03);
 }
+
+/* Handles the website embed for the SHOWS page */
+
+.WebsiteEmbed {
+  height: 50%;
+  width: 50%;
+}
